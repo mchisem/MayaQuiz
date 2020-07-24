@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body     {
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, rgb(1, 6, 46), navy);
+}
+
+/* HIDE */
+.hide {
+    display: none;
+}
+
+/* INITIAL DISPLAY */
+#intro {
+    width: 100%;
+    margin-top: 21%;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+p {
+    font-size: 20px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.button {
+    font-size: 20px;
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    width: 104px;
+    border-radius: 0%;
+}
+
+.start {
+    margin-bottom: 20px;
+}
+
+#start-button {
+    padding-left: 31px;
+    padding-right: 31px;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+/*  QUIZ NAVBAR */
+.top {
+    color: white;
+    margin-right: 30px;
+    font-size: 30px;
+}
+
+#score {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    float: right;
+    top: 0;
+}
+
+#score:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+/*  QUIZ  */
+h3 {
+    color: white;
+    padding-top: 5px;
+    font-size: 40px;
+}
+.questions-container {
+    position: relative;
+    margin: 50px;
+    margin-top: 12%;
+    text-align: center;
+    padding-bottom: 15px;
+    color: black;
+    border: 2px solid white;
+}
+
+.answer {
+    text-align: left;
+    width: auto;
+    margin: 15px;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    background: none;
+    color: white;
+}
+
+.answer.right {
+    background-color: green;
+}
+
+.answer.wrong {
+    background-color: darkred;
+}
+
+button {
+    border: none;
+    display: grid;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+#next {
+    border: none;
+    width: 100%;
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+}
+
+#next:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+/* end game page */
+.answers-container {
+    font-size: 35px;
+    color: white;
+}
+
+#submit {
+    width: 100%;
+    color: white;
+    border: none;
+}
+
+#submit:hover {
+    cursor: pointer;
+    border: none;
+    color: black;
+}
+
+#name {
+    font-size: 25px;
+    /* margin: 15px; */
+    margin-top: 25px;
+}
